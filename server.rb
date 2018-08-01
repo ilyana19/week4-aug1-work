@@ -12,7 +12,7 @@ get '/portfolio' do
   erb :gallery
 end
 
-get '/about_me' do
+get '/about.erb' do
   @skills = ['git', 'HTML', 'CSS', 'Ruby']
   @interests = ['cats', 'music', 'games', 'anime/manga']
 
